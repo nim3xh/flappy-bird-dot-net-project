@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="FlappyBirdGame_mk.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlappyBirdGame_mk">
+
+    <Page.Resources>
+        <local:ImageSizeConverter x:Key="ImageSizeConverter"/>
+    </Page.Resources>
+
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Canvas x:Name="GameCanvas" Background="Transparent" Margin="0,0,10,0" Grid.Row="0" Height="816" VerticalAlignment="Top">
+            <!-- Background Image 1 -->
+            <Image x:Name="BackgroundImage" Source="Assets/background.png" Stretch="Fill"
+                   Width="1270"
+                   Height="{Binding ElementName=GameCanvas, Path=ActualHeight}"/>
+            <!-- Background Image 2 -->
+            <Image x:Name="BackgroundImage2" Source="Assets/background.png" Stretch="Fill"
+                   Width="1545"
+                   Height="816"
+                   Canvas.Left="840"/>
+            <Image x:Name="BirdImage" Source="Assets/bird.png" Width="51" Height="37" Canvas.Top="343" Canvas.Left="483" RenderTransformOrigin="1.2,1.44"/>
+            <!-- Pipes will be dynamically added here -->
+
+            <!-- Score -->
+            <TextBlock x:Name="ScoreTextBlock" Text="0" FontSize="12" FontWeight="Bold" Foreground="White" Canvas.Top="58" Canvas.Left="183" Height="15" Width="30" SelectionChanged="ScoreTextBlock_SelectionChanged" RenderTransformOrigin="-0.067,-0.08" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+            <!-- Game Over Screen (Hidden by default) -->
+            <Grid x:Name="GameOverGrid" Visibility="Collapsed"  VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Rectangle Fill="#80000000" Margin="-305,1,-922,-274"/>
+                <TextBlock Text="Game Over" FontSize="72" FontWeight="Bold" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left" SelectionChanged="TextBlock_SelectionChanged_1" Margin="202,401,0,0"/>
+                <TextBlock Text="Your final score is:" FontSize="16" FontWeight="Bold" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="321,485,0,0"/>
+                <TextBlock x:Name="FinalScoreTextBlock" Text="0" FontSize="24" FontWeight="Bold" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="376,502,0,0"/>
+                <Button Content="Restart" Click="RestartButton_Click" VerticalAlignment="Top" Margin="351,539,0,0"/>
+            </Grid>
+
+            <TextBlock x:Name="ScoreLable" Canvas.Left="130" TextWrapping="Wrap" Text="Score" Canvas.Top="55" SelectionChanged="TextBlock_SelectionChanged"/>
+            <!-- Hit sound effect -->
+            <MediaElement x:Name="HitSound" Source="Assets/hit.wav" AutoPlay="False" />
+            <MediaElement x:Name="DieSound" Source="Assets/die.wav" AutoPlay="False" />
+            <MediaElement x:Name="WingtSound" Source="Assets/wing.wav" AutoPlay="False" />
+            <MediaElement x:Name="SwooshSound" Source="Assets/swoosh.wav" AutoPlay="False" />
+        </Canvas>
+
+        <!-- Jump Button (Visible at all times) -->
+        <Button x:Name="JumpButton" Content="Jump" Click="JumpButton_Click" VerticalAlignment="Top" Margin="529,784,0,0" RenderTransformOrigin="-0.167,0.719"/>
+    </Grid>
+</Page>

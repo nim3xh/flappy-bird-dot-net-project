@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NIM3XH</Machine>
+    <WindowsUser>nimes</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>4dfa9039-3fac-47ef-aca5-bc6f8564f920</PackageIdentityName>
+    <PackageIdentityPublisher>CN=User</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\bin\WindowsUniversal\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>3E572921AD12C6C5838BB9B2FD65F2ECF7EE51E13E2049A8BE1C97DB5666FD16</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4dfa9039-3fac-47ef-aca5-bc6f8564f920_1.0.0.0_x64__4sdaedqydyjdm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4dfa9039-3fac-47ef-aca5-bc6f8564f920_4sdaedqydyjdm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4dfa9039-3fac-47ef-aca5-bc6f8564f920</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=User</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\bin\WindowsUniversal\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-29T09:35:01.885</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\bin\WindowsUniversal\x64\Debug\FlappyBirdGame_mk.exe">
+      <PackagePath>entrypoint\FlappyBirdGame_mk.exe</PackagePath>
+      <Modified>2024-03-29T09:34:11.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\.nuget\packages\monogame.framework.windowsuniversal\3.8.1.303\lib\uap10.0.16299\MonoGame.Framework.dll">
+      <PackagePath>MonoGame.Framework.dll</PackagePath>
+      <Modified>2022-07-26T11:56:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.13\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2021-10-10T06:49:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\.nuget\packages\sharpdx\4.0.1\lib\uap10.0\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+      <Modified>2017-05-30T10:02:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\.nuget\packages\sharpdx.direct2d1\4.0.1\lib\uap10.0\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+      <Modified>2017-05-30T10:03:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\.nuget\packages\sharpdx.direct3d11\4.0.1\lib\uap10.0\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+      <Modified>2017-05-30T10:03:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\.nuget\packages\sharpdx.dxgi\4.0.1\lib\uap10.0\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+      <Modified>2017-05-30T10:03:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\.nuget\packages\sharpdx.mediafoundation\4.0.1\lib\uap10.0\SharpDX.MediaFoundation.dll">
+      <PackagePath>SharpDX.MediaFoundation.dll</PackagePath>
+      <Modified>2017-05-30T10:04:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\.nuget\packages\sharpdx.xaudio2\4.0.1\lib\uap10.0\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+      <Modified>2017-05-30T10:03:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2020-12-01T23:22:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\.nuget\packages\monogame.framework.windowsuniversal\3.8.1.303\lib\uap10.0.16299\MonoGame.Framework\MonoGame.Framework.WindowsUniversal.targets">
+      <PackagePath>MonoGame.Framework\MonoGame.Framework.WindowsUniversal.targets</PackagePath>
+      <Modified>2022-07-26T11:44:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\background.png">
+      <PackagePath>Assets\background.png</PackagePath>
+      <Modified>2024-03-28T21:28:23.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\bird.png">
+      <PackagePath>Assets\bird.png</PackagePath>
+      <Modified>2024-03-28T21:28:23.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\pipe.png">
+      <PackagePath>Assets\pipe.png</PackagePath>
+      <Modified>2024-03-28T21:28:25.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-03-28T21:28:25.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-28T21:28:25.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-28T21:27:14.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-28T21:28:25.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-28T21:28:25.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-28T21:28:25.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-28T21:28:25.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\die.wav">
+      <PackagePath>Assets\die.wav</PackagePath>
+      <Modified>2024-03-28T21:28:23.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\hit.wav">
+      <PackagePath>Assets\hit.wav</PackagePath>
+      <Modified>2024-03-28T21:28:23.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\swoosh.wav">
+      <PackagePath>Assets\swoosh.wav</PackagePath>
+      <Modified>2024-03-28T21:28:25.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Assets\wing.wav">
+      <PackagePath>Assets\wing.wav</PackagePath>
+      <Modified>2024-03-28T21:28:25.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2024-03-28T21:27:14.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\bin\WindowsUniversal\x64\Debug\FlappyBirdGame_mk.xr.xml">
+      <PackagePath>FlappyBirdGame_mk.xr.xml</PackagePath>
+      <Modified>2024-03-28T21:53:46.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\bin\WindowsUniversal\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2024-03-29T09:34:59.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\bin\WindowsUniversal\x64\Debug\GamePage.xbf">
+      <PackagePath>GamePage.xbf</PackagePath>
+      <Modified>2024-03-29T09:34:59.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2020-12-01T21:22:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\bin\WindowsUniversal\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-03-29T09:34:16.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nimes\source\repos\FlappyBirdGame Solution\FlappyBirdGame_mk\bin\WindowsUniversal\x64\Debug\Core\FlappyBirdGame_mk.exe">
+      <PackagePath>FlappyBirdGame_mk.exe</PackagePath>
+      <Modified>2024-03-29T09:35:01.885</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\nimes\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nimes\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\nimes\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nimes\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\nimes\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nimes\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\nimes\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nimes\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\nimes\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nimes\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\nimes\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\nimes\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
